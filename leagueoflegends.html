@@ -3,23 +3,64 @@
 <head>
   <title>LOL</title>
   <meta charset="UTF_8">
+  <style>
+    body {
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h2 {
+      font-size:45px;
+      text-align:center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:150px;
+      margin:0;
+      padding:20px;
+    }
+
+    #grid {
+      display:grid;
+      grid-template-columns:150px 1fr;
+    }
+
+
+  </style>
 
 </head>
 <body>
   <h1>AOS<h1>
-  <ul>
-    <li>league of legends</li>
-    <img src=" 리그오브레전드.jpg " width="50%">
-  </ul>
-  <br>리그오브레전드는 5명이 팀을 이뤄 상대방의 건물을 파괴하는 게임으로
-  120여가지가 넘는 수많은 캐릭터들을 한가지 선택하여 각자 역할을 나누어 승리로
-  이끄는 게임이다.</br>
+  <div>
+  <div id="grid">
+    <ol>
+      <li>league of legends</li>
+      <img src=" 리그오브레전드.jpg " width="50%">
+      <li><a href="dota.html">dota</a></li>
+      <img src=" 도타.jpg " width="50%">
+    </ol>
+  </div>
+  <div>
+      <h2>LOL</h2>
+      <p>리그오브레전드는 5명이 팀을 이뤄 상대방의 건물을 파괴하는 게임으로
+      120여가지가 넘는 수많은 캐릭터들을 한가지 선택하여 각자 역할을 나누어 승리로
+      이끄는 게임이다.</p>
+
   <h3>스트리머 링크</h3>
   <ol>
     <li><a href="https://www.twitch.tv/myzet1990" target="_blank">개구멍</a></li>
     <li><a href="https://www.twitch.tv/maknoonlol" target="_blank">막눈</a></li>
     <li><a href="https://www.twitch.tv/faker" target="_blank">Faker</a></li>
   </ol>
+  </div>
+  </div>
+
+
 
 
 </body>
